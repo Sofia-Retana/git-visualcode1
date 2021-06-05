@@ -4,9 +4,18 @@ head{
 }
 body { 
   background-color:#efd9d1;
+  background-position: center;
   margin-left: 15px;
   margin-right: 15px;
+  text-align: center;
+  
+  
 }
+div{
+  text-align: center;
+  color:#ca8a8b;
+}
+
 img {
     width: 200px;
 }

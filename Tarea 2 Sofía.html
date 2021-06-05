@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta name="viewport" content="width=200 , initial-scale=1.0">
     <title>Primer Página</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script> ​
@@ -33,7 +33,23 @@
          <li>  <i class="fab fa-twitter-square"></i> <a href="https://twitter.com/login?lang=es"target= blank>Twitter</a> </li>
          <li>  <i class="fab fa-linkedin"></i> <a href="https://cr.linkedin.com/"target= blank>Linkedin</a> </li>
     </ul>
-   
+    <div>
+      <button id="toggleBloque" onclick="Ocultar()" >Ocultar</button>
+    <form id="demo">
+        Número 1: <input id="num1" type="number" />
+        Número 2: <input id="num2" type="number" />
+        <p id="resultado"></p>
+        <br /><br />
+        <input type="button" value="Sumar" onclick="operaciones('sumar'); return false;" /><br />
+        <input type="button" value="Restar" onclick="operaciones('restar'); return false;" /><br />
+        <input type="button" value="Multiplicar" onclick="operaciones('multiplicar'); return false;" /><br />
+      </form>
+
+      <button id="toggle1" onclick="Mostrar()" >Mostrar</button>
+    </div>
+  
+  
+   <script src="script.js"></script>
      <footer>  <hl> Hecho por: Sofía Retana Barboza</hl> </footer>
 </body>
 </html> 
